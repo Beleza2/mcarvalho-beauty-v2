@@ -137,3 +137,84 @@ margin-top:40px;
 }
 
 }
+/* SOBRE */
+
+.about{
+
+padding:120px 0;
+
+background:white;
+
+}
+
+.about-grid{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:80px;
+
+align-items:center;
+
+}
+
+.about-image img{
+
+width:100%;
+
+border-radius:30px;
+
+box-shadow:0 30px 60px rgba(0,0,0,.15);
+
+}
+
+.about-text span{
+
+color:#d8b36b;
+
+letter-spacing:4px;
+
+font-size:14px;
+
+}
+
+.about-text h2{
+
+font-family:'Playfair Display',serif;
+
+font-size:54px;
+
+margin:20px 0;
+
+color:#222;
+
+}
+
+.about-text p{
+
+font-size:18px;
+
+color:#666;
+
+margin-bottom:25px;
+
+line-height:1.9;
+
+}
+
+@media(max-width:900px){
+
+.about-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.about-text{
+
+text-align:center;
+
+}
+
+}
