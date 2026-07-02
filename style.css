@@ -315,3 +315,84 @@ color:#bbb;
 line-height:1.8;
 
 }
+/* PREMIUM */
+
+.premium{
+
+padding:130px 0;
+
+background:white;
+
+}
+
+.premium-grid{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:70px;
+
+align-items:center;
+
+}
+
+.section-title-left{
+
+font-family:'Playfair Display',serif;
+
+font-size:54px;
+
+margin:20px 0;
+
+color:#222;
+
+}
+
+.premium p{
+
+color:#666;
+
+line-height:1.9;
+
+margin-bottom:20px;
+
+}
+
+.premium-box{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:20px;
+
+}
+
+.premium-item{
+
+padding:30px;
+
+background:#fafafa;
+
+border-radius:20px;
+
+transition:.4s;
+
+box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+}
+
+.premium-item:hover{
+
+transform:translateY(-10px);
+
+}
+
+.premium-item h3{
+
+margin-bottom:12px;
+
+color:#222;
+
+}
